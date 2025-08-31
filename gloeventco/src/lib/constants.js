@@ -5,8 +5,8 @@ export const EMAIL = 'info@gloeventco.com'
 export const ADDRESS_HTML = '11155 South Towne Sq. Suite C<br/>St. Louis, MO 63123'
 
 export const BOOK_BASE = 'https://glo-event-co.checkcherry.com'
-export const BOOK_SELFIE = `${BOOK_BASE}/packages/selfie-station-rentals`
-export const BOOK_SILENT = `${BOOK_BASE}/packages/silent-disco`
+export const BOOK_SELFIE = `${BOOK_BASE}/reservation/event_type?package_group_id=13666`
+export const BOOK_SILENT = `${BOOK_BASE}/reservation/package_group?service_id=9587`
 
 // === Our Work (assets bundlados) ===
 // Carga todas las imágenes de /src/assets/cases como URLs con hash
